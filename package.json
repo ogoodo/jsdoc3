@@ -1,0 +1,22 @@
+{
+  "name": "ncmsadmin",
+  "version": "1.0.0",
+  "description": "ncms admin",
+  "main": "server/server.js",
+  "scripts": {
+    "jsdoc": "gulp jsdoc --gulpfile ./config/gulpfile.js --NODE_ENV=production",
+    "lint": "eslint ./src/"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "author": "ogoodo.com",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jsdoc3": "^0.2.1"
+  }
+}
